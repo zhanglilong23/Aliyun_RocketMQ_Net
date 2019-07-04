@@ -32,3 +32,30 @@
 
 ## 注明： 我不是大神，如有问题和bug，后续可能会修复，也可能需要大家自己解决。
 
+## 啰嗦两句
+
+
+
+![图1](https://github.com/zhanglilong23/Aliyun_RocketMQ_Net/blob/master/imgs/1.png)
+
+### 如上图，请将 实例ID写入到 _instanceId 字段中。
+
+### 如上图,请将HTTP协议接入点写入到 _endpoint 字段中。 _topicName 不再强调。
+
+
+
+
+![图2](https://github.com/zhanglilong23/Aliyun_RocketMQ_Net/blob/master/imgs/2.png)
+
+
+### 如上图, _groupId 填写的是HTTP协议下的 GroupID，TCP下的不行。
+
+### 关于权限，请在RAM访问控制赋予用户 AliyunMQFullAccess 权限。
+
+### 最后上成功图
+
+![图3](https://github.com/zhanglilong23/Aliyun_RocketMQ_Net/blob/master/imgs/mqtest.png)
+
+
+
+
