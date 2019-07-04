@@ -1,6 +1,6 @@
 # Aliyun_RocketMQ_Net
 
-### 如果你使用的是.Net Core 请忽略本项目，直接查看阿里云官方的项目[mq-http-csharp-sdk](https://github.com/aliyunmq/mq-http-csharp-sdk)
+### 如果你使用的是.Net Core 请忽略本项目，本项目基于阿里云官方项目而来，请直接查看阿里云官方的项目[mq-http-csharp-sdk](https://github.com/aliyunmq/mq-http-csharp-sdk)
 
 ### 首先，本项目使用的是RocketMQ中的 Http连接方式，截止于2019-7-1日，请确定你符合以下条件：
 ~~~
